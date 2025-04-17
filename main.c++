@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
-// scope : النطاق
-// global variable
-int x = 10;
 
+// overloading funtion
+
+void print()
+{
+    cout << "Hello World";
+}
 int main()
 {
-    int x = 20;
-    cout << ::x << endl;
-    cout << x << endl;
+    print();
 }
